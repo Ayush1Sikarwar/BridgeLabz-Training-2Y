@@ -10,5 +10,6 @@ public class DistanceConverter {
         double miles = km * 1.6;
 
         System.out.println("The total miles is " + miles + " for the given " + km + " km");
+        input.close();
     }
 }
