@@ -2,7 +2,6 @@ import java.util.Scanner;
 
 public class UniversityFeeInput {
     public static void main(String[] args) {
-<<<<<<< HEAD
         try (Scanner input = new Scanner(System.in)) {
 
             System.out.print("Enter the fee (INR): ");
@@ -16,19 +15,5 @@ public class UniversityFeeInput {
 
             System.out.println("The discount amount is INR " + discount + " and final discounted fee is INR " + finalFee);
         }
-=======
-        Scanner input = new Scanner(System.in);
-
-        System.out.print("Enter the fee (INR): ");
-        double fee = input.nextDouble();
-
-        System.out.print("Enter the discount percent: ");
-        double discountPercent = input.nextDouble();
-
-        double discount = (fee * discountPercent) / 100.0;
-        double finalFee = fee - discount;
-
-        System.out.println("The discount amount is INR " + discount + " and final discounted fee is INR " + finalFee);
->>>>>>> bc64489e8b4dffd51ef5c6f0380f810c87053caa
     }
 }
